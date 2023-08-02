@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='UTF-8'>
+		<title>Survey</title>
+	</head>
+	<body>
+		<header>
+		<h1>Welcome to my blog!</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="my blog.html">My Blog</a></li>
+				<li><a href="#">Survey</a></li>
+			</ul>
+		</nav>
+		<main>
+			<h1>Survey form</h1>
+			
+			<form>
+				<label>Your background: </label>
+				<input type="radio" name="background" id="student" value="Student">
+				<label for='student'>Student</label>
+				<input type="radio" name="background" id="developer" value="Software Developer">
+				<label for='developer'>Software Developer</label>
+				<input type="radio" name="background" id="other" value="Other">
+				<label for='other'>Other</label>
+				</br>
+				<label for='feelaboutblog'>How do you feel about my blog:</label>
+				<select name="feelaboutblog">
+					<option value="">--Please choose your answer--</option>
+					<option value="happy">Happy</option>
+					<option value="sad">Sad</option>
+					<option value="none">None</option>
+				</select>
+				</br>
+				<label>The topics that you want me to share:</label>
+				<input type="checkbox" name="topic" id="git" value="Git">
+				<label for='git'>Git</label>
+				<input type="checkbox" name="topic" id="css" value="CSS">
+				<label for='css'>CSS</label>
+				<input type="checkbox" name="topic" id="html" value="HTML">
+				<label for='html'>HTML</label>
+				<input type="checkbox" name="topic" id="javascript" value="JavaScript">
+				<label for='html'>JavaScript</label>
+				</br>
+				<label for="feedback">Your feedback:</label>
+				</br>
+				<textarea id="feedback"></textarea>
+				</br>
+				<label for='blogid'>Your blog id:</label>
+				<input type='text' id='blogid' name='blogid'>
+				</br>
+				<input type='submit' value='Submit'>
+			</form>
+		</main>
+		<footer>
+			<p>&copy; 2022 Thoughtworks</p>
+		</footer>
+	</body>
+</html>
